@@ -41,7 +41,7 @@ iframe
   margin-left: auto;
   margin-right: auto;
 }
-#TITLE
+#HOME
 {
   ;
 }
@@ -63,6 +63,7 @@ iframe
 }
 .SUBMENU
 {
+  text-decoration-color: rgb(255, 255, 255);
   text-align: center;
   
   border: 2px rgba(255, 255, 255, 0.8) solid;
@@ -74,6 +75,7 @@ iframe
   
   padding: 20px;
 }
+
 
 @media(max-width:1200px)
 {
@@ -92,13 +94,13 @@ iframe
 {
   #MENU
   {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
   #LOWER
   {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
   img
   {
@@ -111,28 +113,10 @@ iframe
     height: auto;
   }
 }
-@media(max-width:600px)
-{
-  #MENU
-  {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  #LOWER
-  {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
 @media(max-width:450px)
 {
   #MENU
   {
     display: block;
-  }
-  #LOWER
-  {
-    margin-left: 10px;
-    margin-right: 10px;
   }
 }
