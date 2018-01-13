@@ -13,12 +13,17 @@ body
   font-family: 'Noto Sans KR';
   font-weight: 300;
 }
-h1 /* for title */
+h1 /* for home */
 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
 h2 /* for menu */
+{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+h3 /* for sub_menu */
 {
   color: rgb(255, 255, 255);
   text-align: center;
@@ -63,9 +68,6 @@ iframe
 }
 .SUBMENU
 {
-  text-decoration-color: rgb(255, 255, 255);
-  text-align: center;
-  
   border: 2px rgba(255, 255, 255, 0.8) solid;
   padding: 10px;
 }
