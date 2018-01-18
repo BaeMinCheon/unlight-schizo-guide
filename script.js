@@ -17,6 +17,7 @@ var strM002 = "HELP"
 
 // Document 101~199
 var strM101 = "튜토리얼";
+var strM102 = "다크룸";
 
 // Document 201~299
 var strM201 = "덱 구성";
