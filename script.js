@@ -118,9 +118,21 @@ var strSub03 =
 
 // Document 301~399
 var strM301 = "동영상 가이드";
+var strM302 = "나무위키";
+var strM303 = "블로그";
 var strSub04 =
   '<a href="M301.html"> \
     <h3>' +
       strM301 +
+  '  </h3> \
+  </a> \
+  <a href="M302.html"> \
+    <h3>' +
+      strM302 +
+  '  </h3> \
+  </a> \
+  <a href="M303.html"> \
+    <h3>' +
+      strM303 +
   '  </h3> \
   </a>';
