@@ -95,6 +95,7 @@ var strSub01 =
 // Document 101~199
 var strM101 = "튜토리얼";
 var strM102 = "FAQ & RULE";
+var strM103 = "메인화면";
 var strSub02 =
   '<a href="M101.html"> \
     <h3>' +
@@ -104,6 +105,11 @@ var strSub02 =
   <a href="M102.html"> \
     <h3>' +
       strM102 +
+  '  </h3> \
+  </a> \
+  <a href="M103.html"> \
+    <h3>' +
+      strM103 +
   '  </h3> \
   </a>';
 
