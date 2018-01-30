@@ -94,9 +94,10 @@ var strSub01 =
 
 // Document 101~199
 var strM101 = "튜토리얼";
-var strM102 = "FAQ & RULE";
-var strM103 = "다크룸";
-var strM104 = "서플라이 & 덱";
+var strM102 = "용어집";
+var strM103 = "FAQ & RULE";
+var strM104 = "다크룸";
+var strM105 = "서플라이 & 덱";
 var strSub02 =
   '<a href="M101.html"> \
     <h3>' +
@@ -116,6 +117,11 @@ var strSub02 =
   <a href="M104.html"> \
     <h3>' +
       strM104 +
+  '  </h3> \
+  </a> \
+  <a href="M105.html"> \
+    <h3>' +
+      strM105 +
   '  </h3> \
   </a>';
 
