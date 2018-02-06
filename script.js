@@ -98,6 +98,7 @@ var strM102 = "용어집";
 var strM103 = "FAQ & RULE";
 var strM104 = "다크룸";
 var strM105 = "서플라이 & 덱";
+var strM106 = "합성 & 해체";
 var strSub02 =
   '<a href="M101.html"> \
     <h3>' +
@@ -122,6 +123,11 @@ var strSub02 =
   <a href="M105.html"> \
     <h3>' +
       strM105 +
+  '  </h3> \
+  </a> \
+  <a href="M106.html"> \
+    <h3>' +
+      strM106 +
   '  </h3> \
   </a>';
 
