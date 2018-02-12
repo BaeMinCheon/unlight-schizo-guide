@@ -99,6 +99,7 @@ var strM103 = "FAQ & RULE";
 var strM104 = "다크룸";
 var strM105 = "덱 편집";
 var strM106 = "합성 & 해체";
+var strM107 = "상점";
 var strSub02 =
   '<a href="M101.html"> \
     <h3>' +
@@ -128,6 +129,11 @@ var strSub02 =
   <a href="M106.html"> \
     <h3>' +
       strM106 +
+  '  </h3> \
+  </a> \
+  <a href="M107.html"> \
+    <h3>' +
+      strM107 +
   '  </h3> \
   </a>';
 
