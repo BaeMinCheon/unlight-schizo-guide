@@ -1,9 +1,12 @@
+// ============================================================
 // TItle
 document.title = "UnlightSC Guide KOR";
 
+// ============================================================
 // Messages
 var strMsg01 = "가로 해상도 900px 이상의 환경을 권장합니다.";
 
+// ============================================================
 // HOME and MENUs
 var strHome = "HOME";
 var strToHome01 =
@@ -18,7 +21,6 @@ var strToHome02 =
       strHome +
   '  </h1> \
   </a>';
-
 var strMenu01 = "Basic";
 var strMenu02 = "Advanced";
 var strMenu03 = "Reference";
@@ -55,6 +57,7 @@ var strToMenu02 =
     '</h2> \
   </a>';
 
+// ============================================================
 // Common Codes
 var strCommon01 =
   '<div id="NOTICE">' +
@@ -77,92 +80,130 @@ var strCommon02 =
     strToMenu02 +
   '</div>';
 
+// ============================================================
+// Common Function
+function getSubmenu01(menu, list, kor, order, index)
+{
+  return '<a href="MENU0' + menu + '/' + list[order[index]] + '"> \
+    <h3>' +
+      kor[order[index]] +
+  '  </h3> \
+  </a>'
+}
+function getSubmenu02(list, kor, order, index)
+{
+  return '<a href="' + list[order[index]] + '"> \
+    <h3>' +
+      kor[order[index]] +
+  '  </h3> \
+  </a>'
+}
+
+// ============================================================
 // Document 001~099
-var strM001 = "INFO";
-var strM002 = "HELP"
-var strSub01 =
-  '<a href="M001.html"> \
-    <h3>' +
-      strM001 +
-  '  </h3> \
-  </a> \
-  <a href="M002.html"> \
-    <h3>' +
-      strM002 +
-  '  </h3> \
-  </a>';
+var listM000 =
+{
+  INFO : "M001.html",
+  HELP : "M002.html",
+};
+var korM000 =
+{
+  INFO : "안내문",
+  HELP : "도움말",
+};
+var orderM000 =
+[
+  "INFO",
+  "HELP"
+];
+var strSub01 = "";
+var strSub02 = "";
+for(i = 0; i < orderM000.length; ++i)
+{
+  strSub01 += getSubmenu01(0, listM000, korM000, orderM000, i);
+  strSub02 += getSubmenu02(listM000, korM000, orderM000, i);
+}
 
+// ============================================================
 // Document 101~199
-var strM101 = "튜토리얼";
-var strM102 = "용어집";
-var strM103 = "FAQ & RULE";
-var strM104 = "다크룸";
-var strM105 = "덱 편집";
-var strM106 = "합성 & 해체";
-var strM107 = "상점";
-var strSub02 =
-  '<a href="M101.html"> \
-    <h3>' +
-      strM101 +
-  '  </h3> \
-  </a> \
-  <a href="M102.html"> \
-    <h3>' +
-      strM102 +
-  '  </h3> \
-  </a> \
-  <a href="M103.html"> \
-    <h3>' +
-      strM103 +
-  '  </h3> \
-  </a> \
-  <a href="M104.html"> \
-    <h3>' +
-      strM104 +
-  '  </h3> \
-  </a> \
-  <a href="M105.html"> \
-    <h3>' +
-      strM105 +
-  '  </h3> \
-  </a> \
-  <a href="M106.html"> \
-    <h3>' +
-      strM106 +
-  '  </h3> \
-  </a> \
-  <a href="M107.html"> \
-    <h3>' +
-      strM107 +
-  '  </h3> \
-  </a>';
+var listM100 =
+{
+  TUTORIAL : "M101.html",
+  GLOSSARY : "M102.html",
+  FAQnRULE : "M103.html",
+  DARKROOM : "M104.html",
+  DECKEDIT : "M105.html",
+  COMPOSEnDISSOLUTION : "M106.html",
+  STORE : "M107.html"
+};
+var korM100 =
+{
+  TUTORIAL : "튜토리얼",
+  GLOSSARY : "용어집",
+  FAQnRULE : "FAQ & RULE",
+  DARKROOM : "다크룸",
+  DECKEDIT : "덱 편집",
+  COMPOSEnDISSOLUTION : "합성 & 해체",
+  STORE : "상점"
+};
+var orderM100 =
+[
+  "TUTORIAL",
+  "GLOSSARY",
+  "FAQnRULE",
+  "DARKROOM",
+  "DECKEDIT",
+  "COMPOSEnDISSOLUTION",
+  "STORE"
+];
+var strSub03 = "";
+for(i = 0; i < orderM100.length; ++i)
+{
+  strSub03 += getSubmenu02(listM100, korM100, orderM100, i);
+}
 
+// ============================================================
 // Document 201~299
-var strM201 = "덱 구성";
-var strSub03 =
-  '<a href="M201.html"> \
-    <h3>' +
-      strM201 +
-  '  </h3> \
-  </a>';
+var listM200 =
+{
+  TEST : "M201.html"
+};
+var korM200 =
+{
+  TEST : "준비 중",
+};
+var orderM200 =
+[
+  "TEST"
+];
+var strSub04 = "";
+for(i = 0; i < orderM200.length; ++i)
+{
+  strSub04 += getSubmenu02(listM200, korM200, orderM200, i);
+}
 
+// ============================================================
 // Document 301~399
-var strM301 = "동영상 가이드";
-var strM302 = "나무위키";
-var strM303 = "블로그";
-var strSub04 =
-  '<a href="M301.html"> \
-    <h3>' +
-      strM301 +
-  '  </h3> \
-  </a> \
-  <a href="M302.html"> \
-    <h3>' +
-      strM302 +
-  '  </h3> \
-  </a> \
-  <a href="M303.html"> \
-    <h3>' +
-      strM303 +
-  '  </h3> \
-  </a>';
+var listM300 =
+{
+  THANANG : "M301.html",
+  NAMUWIKI : "M302.html",
+  PALACHI : "M303.html"
+};
+var korM300 =
+{
+  THANANG : "동영상 가이드",
+  NAMUWIKI : "나무위키",
+  PALACHI : "블로그"
+};
+var orderM300 =
+[
+  "THANANG",
+  "NAMUWIKI",
+  "PALACHI"
+];
+var strSub05 = "";
+for(i = 0; i < orderM300.length; ++i)
+{
+  strSub05 += getSubmenu02(listM300, korM300, orderM300, i);
+}
