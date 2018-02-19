@@ -8,7 +8,7 @@ var strMsg01 = "가로 해상도 900px 이상의 환경을 권장합니다.";
 
 // ============================================================
 // HOME and MENUs
-var strHome = "HOME";
+var strHome = "대문";
 var strToHome01 =
   '<a href="index.html"> \
     <h1>' +
@@ -21,9 +21,9 @@ var strToHome02 =
       strHome +
   '  </h1> \
   </a>';
-var strMenu01 = "Basic";
-var strMenu02 = "Advanced";
-var strMenu03 = "Reference";
+var strMenu01 = "기초";
+var strMenu02 = "심화";
+var strMenu03 = "참고";
 var strToMenu01 =
   '<a href="MENU01/M100.html"> \
     <h2>' +
