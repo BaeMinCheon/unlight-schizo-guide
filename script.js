@@ -134,7 +134,8 @@ var listM100 =
   DARKROOM : "M104.html",
   DECKEDIT : "M105.html",
   COMPOSEnDISSOLUTION : "M106.html",
-  STORE : "M107.html"
+  STORE : "M107.html",
+  AVATAR : "M108.html"
 };
 var korM100 =
 {
@@ -144,7 +145,8 @@ var korM100 =
   DARKROOM : "다크룸",
   DECKEDIT : "덱 편집",
   COMPOSEnDISSOLUTION : "합성 & 해체",
-  STORE : "상점"
+  STORE : "상점",
+  AVATAR : "아바타"
 };
 var orderM100 =
 [
@@ -154,7 +156,8 @@ var orderM100 =
   "DARKROOM",
   "DECKEDIT",
   "COMPOSEnDISSOLUTION",
-  "STORE"
+  "STORE",
+  "AVATAR"
 ];
 var strSub03 = "";
 for(i = 0; i < orderM100.length; ++i)
