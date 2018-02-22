@@ -135,7 +135,8 @@ var listM100 =
   DECKEDIT : "M105.html",
   COMPOSEnDISSOLUTION : "M106.html",
   STORE : "M107.html",
-  AVATAR : "M108.html"
+  AVATAR : "M108.html",
+  LIBRARY : "M109.html"
 };
 var korM100 =
 {
@@ -146,7 +147,8 @@ var korM100 =
   DECKEDIT : "덱 편집",
   COMPOSEnDISSOLUTION : "합성 & 해체",
   STORE : "상점",
-  AVATAR : "아바타"
+  AVATAR : "아바타",
+  LIBRARY : "서재"
 };
 var orderM100 =
 [
@@ -157,7 +159,8 @@ var orderM100 =
   "DECKEDIT",
   "COMPOSEnDISSOLUTION",
   "STORE",
-  "AVATAR"
+  "AVATAR",
+  "LIBRARY"
 ];
 var strSub03 = "";
 for(i = 0; i < orderM100.length; ++i)
